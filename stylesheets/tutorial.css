@@ -1,0 +1,27 @@
+.hidden {display:none;}
+
+.js-tutorial-balloon {z-index:99999;}
+.js-tutorial-balloon .body {padding:10px; background: transparent url(../images/body-bg.png); color:#fff; border:1px solid #333;  -moz-border-radius: 8px; -webkit-border-radius: 8px;  text-align:center; font-size:0.8em; font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; }
+.js-tutorial-balloon .body .content {text-shadow:  #333 1px 1px 3px;}
+
+.js-tutorial-balloon .buttons {padding-top:1em;}
+.js-tutorial-balloon .buttons a { white-space: nowrap; text-decoration:none; margin-top:10px; padding: 3px 6px; text-align: center; color:#fff; background:#c2c2c2 url(../images/button-bg.png) bottom left repeat-x; text-shadow: -1px -1px #666; -moz-border-radius: 0.8em; -webkit-border-radius: 0.8em; cursor:pointer; margin:0em 1em;}
+.js-tutorial-balloon .buttons .cancel a {font-size:80%; color:#ccc; text-decoration:underline; background:none; text-shadow:none;-moz-border-radius: 0; -webkit-border-radius: 0em; text-shadow:  #333 1px 1px 3px;}
+
+.js-tutorial-balloon.inline {margin:10px 40px; }
+.js-tutorial-balloon.inline h2 { text-align:center; margin:0 0 10px 0; padding:0; font-size:1.1em; text-shadow:  #333 2px 2px 3px;} 
+
+.js-tutorial-balloon.left-arrow   { padding-left: 14px;}
+.js-tutorial-balloon.right-arrow  { padding-right: 14px;}
+.js-tutorial-balloon.top-arrow    { padding-top: 14px;}
+.js-tutorial-balloon.bottom-arrow { padding-bottom:14px;}
+
+.js-tutorial-balloon.left-arrow   .arrow,
+.js-tutorial-balloon.right-arrow  .arrow,
+.js-tutorial-balloon.top-arrow    .arrow,
+.js-tutorial-balloon.bottom-arrow .arrow { position:absolute; }
+
+.js-tutorial-balloon.left-arrow   .arrow {top: 0; left:0; background: transparent url(../images/arrow-left.png) no-repeat scroll center right; width: 14px; height:100%;}
+.js-tutorial-balloon.right-arrow  .arrow {top: 0; right:0; background: transparent url(../images/arrow-right.png) no-repeat scroll center left; width: 14px; height:100%;}
+.js-tutorial-balloon.top-arrow    .arrow {top: 0; left: 0; background: transparent url(../images/arrow-top.png) no-repeat scroll bottom center; height: 14px; width:100%;}
+.js-tutorial-balloon.bottom-arrow .arrow {bottom: 0; left: 0; background: transparent url(../images/arrow-bottom.png) no-repeat scroll top center; height: 14px; width:100%;}

@@ -12,7 +12,7 @@ var MyTutorialStory = {
     // Callback function (optional) returning the next story descriptor
     next: function() { return MyTutorialStory.second },
     // Callback function (optional), called when this step of the story is first displayed.
-    callback: function() { alert("I can do crazy custom stuff because step 1 is working!"); }
+    callback: function() { $('#steps div.step1 a').get(0).html("Step 1: Go to Google (this has been modified by step 1's callback)"); }
   },
   second: {
     content: 'This is the html that is displayed for <em>step 2</em>.',

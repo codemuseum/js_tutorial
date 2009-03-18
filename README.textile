@@ -11,4 +11,4 @@ in the correct order.
 
 *The official documentation is kept at:*
 
-http://hackd.thrivesmarthq.com/jstutorial-the-inline-tutorial-framework-powered-by-jquery-javascript
+"http://hackd.thrivesmarthq.com/jstutorial-the-inline-tutorial-framework-powered-by-jquery-javascript":http://hackd.thrivesmarthq.com/jstutorial-the-inline-tutorial-framework-powered-by-jquery-javascript

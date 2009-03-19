@@ -94,7 +94,7 @@ var JSTutorial = {
     }
     if (arrowPosition == 'bottom') { 
       return { 
-        bottom: targetPosition.top + 'px', 
+        top: (targetPosition.top - this.dialog.outerHeight()- this.dialogPad) + 'px', 
         left: ((target.outerWidth() - this.dialog.outerWidth()) / 2 + targetPosition.left) + 'px'  // center horizontally
       };
     }

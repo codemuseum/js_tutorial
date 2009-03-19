@@ -101,7 +101,7 @@ var JSTutorial = {
     if (arrowPosition == 'left') { 
       return { 
         top: ((target.outerHeight() - this.dialog.outerHeight()) / 2 + targetPosition.top) + 'px', // center vertically
-        left: targetPosition.left + 'px' 
+        left: (targetPosition.left + this.dialog.outerWidth() +  this.dialogPad) + 'px' 
       };
     } 
     if (arrowPosition == 'right') { 
